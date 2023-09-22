@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  height: 100vh;
+  width: 100%;
+  background-color:#0D1224;
+  ;
+}
+
+button{
+  background-color: rgba(188, 102, 255, 1);
+  color: white;
+  border-radius: 20px;
+}
+li{
+  cursor: pointer;
+}
+li:hover{
+  color: red;
+  font-weight: bold;
+}
